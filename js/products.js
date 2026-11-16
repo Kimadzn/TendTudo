@@ -1196,14 +1196,53 @@ const PRODUCTS = [
     "featured": false
   },
   {
-    "id": 149,
-    "name": "Brinco modelo 71",
-    "category": "Brincos",
+    "id": 200,
+    "name": "Conjunto 01",
+    "category": "Conjunto",
     "price": "",
     "badges": [],
-    "image": "assets/products/brincos/149.webp",
+    "image": "assets/products/conjunto/200.webp",
+    "featured": false
+  },
+    {
+    "id": 201,
+    "name": "Pingente 01",
+    "category": "Pingentes",
+    "price": "",
+    "badges": [],
+    "image": "assets/products/pingente/201.webp",
+    "featured": false
+  },
+    {
+    "id": 202,
+    "name": "Pingente 02",
+    "category": "Pingentes",
+    "price": "",
+    "badges": [],
+    "image": "assets/products/pingente/202.webp",
+    "featured": false
+  },
+    
+    {
+    "id": 203,
+    "name": "Pingente 03",
+    "category": "Pingentes",
+    "price": "",
+    "badges": [],
+    "image": "assets/products/pingente/203.webp",
+    "featured": false
+  },
+    {
+    "id": 204,
+    "name": "Pulseira 17",
+    "category": "Pulseiras",
+    "price": "",
+    "badges": [],
+    "image": "assets/products/pulseiras/204.webp",
     "featured": false
   }
+  
+
 ];
 
 
