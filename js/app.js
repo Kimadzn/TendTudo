@@ -85,10 +85,10 @@
   const productCard = (product, index = 0) => `
     <article class="product-card" style="animation-delay:${Math.min(index, 8) * 55}ms">
       <button class="product-card__photo js-lightbox" type="button" data-image="${esc(product.image || fallbackImg(product.category))}" data-title="${esc(product.name)}" aria-label="Ampliar foto: ${esc(product.name)}">
-        ${imageMarkup(product)}<span class="product-card__zoom" aria-hidden="true">↗</span>
+        ${imageMarkup(product)}
       </button>
       <div class="product-card__body">
-        <div class="product-card__meta"><span>${esc(product.category)}</span><button type="button" class="js-product-contact" data-product="${esc(product.name)}">Saiba mais ↗</button></div>
+        <div class="product-card__meta"><span>${esc(product.category)}</span><button type="button" class="js-product-contact" data-product="${esc(product.name)}">Saiba mais</button></div>
         <h3>${esc(product.name)}</h3>
         <p class="product-card__price">${product.promo ? `<span class="price-old">${esc(product.price)}</span><span class="price-now">${esc(product.promo)}</span>` : esc(product.price || "Consulte pelo WhatsApp")}</p>
         ${product.badges?.length ? `<ul class="badges">${product.badges.map((badge) => `<li>${esc(badge)}</li>`).join("")}</ul>` : ""}
